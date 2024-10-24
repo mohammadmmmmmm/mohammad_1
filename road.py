@@ -19,7 +19,7 @@ def process_frame(frame):
     return combo_image
 
 
-cap=cv.VideoCapture('C:/Users/sana/Downloads/line_rode.mp4')
+cap=cv.VideoCapture('name file')
 
 while(cap.isOpened()):
     ret,frame=cap.read()
