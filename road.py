@@ -19,7 +19,7 @@ def process_frame(frame):
     return combo_image
 
 
-cap=cv.VideoCapture('name file')
+cap=cv.VideoCapture('name file.mp4')
 
 while(cap.isOpened()):
     ret,frame=cap.read()
